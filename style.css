@@ -1,5 +1,5 @@
 #puzzle{
-    width: 600px;
+    width: 400px;
     margin: auto;
 }
 #puzzle h1{
@@ -8,19 +8,23 @@
 
 .tile{
     background-image: url('pic.jpg');
-    width: 200px;
-    height: 200px;
+   
     float: left;
     border: 1px solid silver;
     box-sizing: border-box;
 }
 
-#tile1{background-position: 0px 0px}
-#tile2{background-position: -200px -0px}
-#tile3{background-position: -400px -0px}
-#tile4{background-position: -0px -200px}
-#tile5{background-position: -200px -200px}
-#tile6{background-position: -400px -200px}
-#tile7{background-position: -0px -400px}
-#tile8{background-position: -200px -400px}
-#tile9{background-position: -400px -400px}
+#tile1{width:130px;height: 130px; background-position: 0px 0px}
+#tile2{width:130px;height: 130px;background-position: -135px -0px}
+#tile3{width:130px;height: 130px;background-position: -666px -0px}
+#tile4{width:130px;height: 130px;background-position: 0px 261px}
+#tile5{width:130px;height: 130px;background-position: -132px -134px}
+#tile6{width:130px;height: 130px;background-position: -664px -133px}
+#tile7{width:130px;height: 130px;background-position: -0px -672px}
+#tile8{width:130px;height: 130px;background-position: -132px -662px}
+#tile9{width:130px;height: 130px;background-position: -658px -661px}
+
+#puzzle button{
+    padding: 20px;
+    margin: 20px 158px; 
+}
